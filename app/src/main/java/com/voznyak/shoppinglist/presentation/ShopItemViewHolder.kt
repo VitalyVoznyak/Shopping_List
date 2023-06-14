@@ -1,9 +1,9 @@
-package com.sumin.shoppinglist.presentation
+package com.voznyak.shoppinglist.presentation
 
 import android.view.View
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.sumin.shoppinglist.R
+import com.voznyak.shoppinglist.R
 
 
 class ShopItemViewHolder(val view: View) : RecyclerView.ViewHolder(view) {

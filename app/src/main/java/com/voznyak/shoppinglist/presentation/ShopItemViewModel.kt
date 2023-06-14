@@ -1,13 +1,13 @@
-package com.sumin.shoppinglist.presentation
+package com.voznyak.shoppinglist.presentation
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.sumin.shoppinglist.data.ShopListRepositoryImpl
-import com.sumin.shoppinglist.domain.AddShopItemUseCase
-import com.sumin.shoppinglist.domain.EditShopItemUseCase
-import com.sumin.shoppinglist.domain.GetShopItemUseCase
-import com.sumin.shoppinglist.domain.ShopItem
+import com.voznyak.shoppinglist.data.ShopListRepositoryImpl
+import com.voznyak.shoppinglist.domain.AddShopItemUseCase
+import com.voznyak.shoppinglist.domain.EditShopItemUseCase
+import com.voznyak.shoppinglist.domain.GetShopItemUseCase
+import com.voznyak.shoppinglist.domain.ShopItem
 
 class ShopItemViewModel : ViewModel() {
 

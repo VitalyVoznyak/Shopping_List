@@ -1,10 +1,10 @@
-package com.sumin.shoppinglist.presentation
+package com.voznyak.shoppinglist.presentation
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
-import com.sumin.shoppinglist.R
-import com.sumin.shoppinglist.domain.ShopItem
+import com.voznyak.shoppinglist.R
+import com.voznyak.shoppinglist.domain.ShopItem
 
 class ShopListAdapter : ListAdapter<ShopItem, ShopItemViewHolder>(ShopItemDiffCallback()) {
 

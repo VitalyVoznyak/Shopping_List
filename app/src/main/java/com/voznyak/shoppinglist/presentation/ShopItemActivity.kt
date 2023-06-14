@@ -1,4 +1,4 @@
-package com.sumin.shoppinglist.presentation
+package com.voznyak.shoppinglist.presentation
 
 import android.content.Context
 import android.content.Intent
@@ -10,8 +10,8 @@ import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.textfield.TextInputLayout
-import com.sumin.shoppinglist.R
-import com.sumin.shoppinglist.domain.ShopItem
+import com.voznyak.shoppinglist.R
+import com.voznyak.shoppinglist.domain.ShopItem
 
 class ShopItemActivity : AppCompatActivity() {
 

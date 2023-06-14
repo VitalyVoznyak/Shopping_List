@@ -1,4 +1,4 @@
-package com.sumin.shoppinglist
+package com.voznyak.shoppinglist
 
 import org.junit.Test
 
